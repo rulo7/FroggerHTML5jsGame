@@ -1,0 +1,10 @@
+Se añaden los siguientes elemntos opcionales:
+
+1. Audio a la muerte de los enemigos y de mario, a la escena, a la victoria y as monedas.
+2. Enemigo auxiliar Bowser con animación y con componente fireSpawner que le permite lanzar bolas de fuego que matan a Mario si colisionan.
+3. Animación tween en las monedas que coge Mario.
+4. Componente fireBallsSpawner que le permite a Mario disparar bolas de fuego con tween animation  (FireBalls) que matan a los enemigos y rebotan en el suelo.
+5. Añadido al evento step, el método step en el componente fireBallSpawner que pone delay a las bolas de fuego que Mario lanza seguidas.
+6. Atributo "fuel" en las bolas de fuego (Bowser y Mario) que les determina una duración determinada en la escena.
+7. Marcador contador de monedas.
+8. Indicador de vidas de Mario.
